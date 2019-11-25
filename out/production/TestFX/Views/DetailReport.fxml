@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="457.0" prefWidth="1039.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DetailReportController">
+   <children>
+      <TableView fx:id="table" layoutY="-7.0" prefHeight="427.0" prefWidth="875.0" AnchorPane.bottomAnchor="7.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-7.0">
+        <columns>
+          <TableColumn fx:id="truckNumColumn" prefWidth="75.0" text="TruckNumber" />
+          <TableColumn fx:id="driverNumberColumn" prefWidth="75.0" text="DriverNumber" />
+            <TableColumn fx:id="coDriverNumberColumn" prefWidth="75.0" text="CoDriverNumber" />
+            <TableColumn fx:id="TripNumber" prefWidth="75.0" text="TripNumber" />
+            <TableColumn fx:id="StateCode" prefWidth="75.0" text="StateCode" />
+            <TableColumn fx:id="MilesDriven" prefWidth="75.0" text="MilesDriven" />
+            <TableColumn fx:id="ReceiptNumber" prefWidth="75.0" text="ReceiptNumber" />
+            <TableColumn fx:id="GallonsPurchased" prefWidth="74.0" text="Gallons Purchased" />
+            <TableColumn fx:id="TaxesPaid" prefWidth="75.0" text="Taxes Paid" />
+            <TableColumn fx:id="StationName" prefWidth="75.0" text="StationName" />
+            <TableColumn fx:id="Location" prefWidth="75.0" text="Location" />
+            <TableColumn prefWidth="75.0" text="Column X" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

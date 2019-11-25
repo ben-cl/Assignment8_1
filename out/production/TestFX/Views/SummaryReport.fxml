@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SummaryReportController">
+   <children>
+      <TableView layoutX="146.0" layoutY="51.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="numberOfTrips" prefWidth="107.20001375675201" text="Number of Trips" />
+          <TableColumn fx:id="totalMilesDriven" prefWidth="118.39998626708984" text="Total Miles Driven" />
+            <TableColumn fx:id="totalGallonsPurchased" minWidth="0.0" prefWidth="142.4000244140625" text="Total Gallons Purchased" />
+            <TableColumn fx:id="totalTaxesPaid" minWidth="0.0" prefWidth="104.0" text="Total Taxes Paid" />
+            <TableColumn minWidth="0.0" prefWidth="80.79995727539062" text="Column X" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
